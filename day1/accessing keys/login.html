@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="common.css">
+</head>
+<body>
+
+  <div id="navbar"">
+          <div>  <a href="login.html">Mens</a>   </div>
+          <div><a href="womens.html">Womens</a></div>
+          <div><a href="mens.html">Login</a></div>
+          <div><a href="signup.html">Signup</a></div>
+  </div>
+
+
+
+    <h1>Login</h1>
+</body>
+</html>
+<script>
+    localStorage.setItem("password","9370105")
+
+    var investrosData=[
+        {avtar:"https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg",
+        name:"Vijay Shekhar",
+        position:"founder & CEO",
+        lobo:"https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_rect_06df45a24f.svg"},
+        {avtar:"https://masai-website-images.s3.ap-south-1.amazonaws.com/Rectangle_427_637d69bb57.png",
+        name:"Kunal Shah",
+        position:"founder & CEO",
+        lobo:"https://masai-website-images.s3.ap-south-1.amazonaws.com/cred_0a47d7b4f8.png"},
+]
+localStorage.setItem("investros",JSON.stringify(investrosData));
+</script>
